@@ -54,3 +54,61 @@ nav{
 .profile i{
     padding: 0 5px;
 }
+
+/* stili main */
+
+main{
+padding-top: 115px;
+}
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.abito{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-abito{
+    width: calc((100%/3) - 10px);
+    margin: 40px 5px;
+    position: relative;
+}
+
+.img-abito img{
+    width: 100%;
+}
+
+.abito i{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* stili testo main */
+
+.discount{
+    color: white;
+    position: absolute;
+    bottom: 90px;
+}
+
+.percentuale, .sostenibile{
+    padding: 5px;
+}
+.percentuale{
+    background-color: red;
+}
+.sostenibile{
+    background-color: green;
+}
+
+.text-abito span{
+ color: red;
+ padding-right: 5px;
+}
