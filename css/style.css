@@ -16,7 +16,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 132px;
+    padding: 20px 157px;
     color: white;
     width: 100%;
     position: fixed;
@@ -82,6 +82,10 @@ padding-top: 115px;
     width: 100%;
 }
 
+.img-abito img:hover{
+    display: none;
+}
+
 .abito i{
     position: absolute;
     right: 0;
@@ -111,4 +115,43 @@ padding-top: 115px;
 .text-abito span{
  color: red;
  padding-right: 5px;
+}
+
+/* stili footer */
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.booleando-info ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.link-footer{
+    padding-right: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.social{
+    text-align: center;
+}
+
+.social i{
+    color: black;
+    background-color: white;
+    padding: 4px;
+    margin: 5px 2px;
+    font-size: 10px;
 }
