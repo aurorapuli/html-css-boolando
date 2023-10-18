@@ -7,3 +7,51 @@
 :root{
     font-size: 14px;
 }
+
+/* stili header */
+
+header{
+    background-color: #ff6900;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: white;
+}
+
+.logo-boolean{
+   height: 27px;
+   color: white;
+}
+
+.link-nav{
+    display: flex;
+    font-size: 18px;
+    width: 30%;
+}
+
+.link-nav li{
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+.pagina{
+    text-decoration: none;
+    color: white;
+}
+
+.profile{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile i{
+    padding: 0 5px;
+}
