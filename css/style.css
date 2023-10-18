@@ -104,6 +104,9 @@ padding-top: 115px;
     background-color: white;
 }
 
+.fa-heart:hover{
+    color: red;
+}
 /* stili testo main */
 
 .discount{
