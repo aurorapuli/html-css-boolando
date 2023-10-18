@@ -79,11 +79,21 @@ padding-top: 115px;
 }
 
 .img-abito img{
+    display: block;
     width: 100%;
 }
 
-.img-abito img:hover{
-    display: none;
+.img-abito .img-hover{
+   display: none;
+}
+
+.img-abito:hover img{
+  display: none;
+}
+
+.img-abito:hover .img-hover{
+    display: block;
+
 }
 
 .abito i{
